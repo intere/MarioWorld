@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36F7D1CA1D0318AD006729BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F7D1C91D0318AD006729BA /* AppDelegate.swift */; };
+		36F7D1CC1D0318AD006729BA /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F7D1CB1D0318AD006729BA /* GameScene.swift */; };
+		36F7D1CE1D0318AD006729BA /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 36F7D1CD1D0318AD006729BA /* GameScene.sks */; };
+		36F7D1D01D0318AD006729BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36F7D1CF1D0318AD006729BA /* Assets.xcassets */; };
+		36F7D1D31D0318AD006729BA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36F7D1D11D0318AD006729BA /* MainMenu.xib */; };
+		36F7D1DE1D0318AE006729BA /* MarioWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F7D1DD1D0318AE006729BA /* MarioWorldTests.swift */; };
+		36F7D1E91D0318AE006729BA /* MarioWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F7D1E81D0318AE006729BA /* MarioWorldUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36F7D1DA1D0318AE006729BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36F7D1BE1D0318AD006729BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36F7D1C51D0318AD006729BA;
+			remoteInfo = MarioWorld;
+		};
+		36F7D1E51D0318AE006729BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36F7D1BE1D0318AD006729BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36F7D1C51D0318AD006729BA;
+			remoteInfo = MarioWorld;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36F7D1C61D0318AD006729BA /* MarioWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarioWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36F7D1C91D0318AD006729BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		36F7D1CB1D0318AD006729BA /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		36F7D1CD1D0318AD006729BA /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		36F7D1CF1D0318AD006729BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36F7D1D21D0318AD006729BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		36F7D1D41D0318AD006729BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36F7D1D91D0318AE006729BA /* MarioWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarioWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36F7D1DD1D0318AE006729BA /* MarioWorldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarioWorldTests.swift; sourceTree = "<group>"; };
+		36F7D1DF1D0318AE006729BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36F7D1E41D0318AE006729BA /* MarioWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarioWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36F7D1E81D0318AE006729BA /* MarioWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarioWorldUITests.swift; sourceTree = "<group>"; };
+		36F7D1EA1D0318AE006729BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36F7D1C31D0318AD006729BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36F7D1D61D0318AE006729BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36F7D1E11D0318AE006729BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36F7D1BD1D0318AD006729BA = {
+			isa = PBXGroup;
+			children = (
+				36F7D1C81D0318AD006729BA /* MarioWorld */,
+				36F7D1DC1D0318AE006729BA /* MarioWorldTests */,
+				36F7D1E71D0318AE006729BA /* MarioWorldUITests */,
+				36F7D1C71D0318AD006729BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36F7D1C71D0318AD006729BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36F7D1C61D0318AD006729BA /* MarioWorld.app */,
+				36F7D1D91D0318AE006729BA /* MarioWorldTests.xctest */,
+				36F7D1E41D0318AE006729BA /* MarioWorldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36F7D1C81D0318AD006729BA /* MarioWorld */ = {
+			isa = PBXGroup;
+			children = (
+				36F7D1C91D0318AD006729BA /* AppDelegate.swift */,
+				36F7D1CB1D0318AD006729BA /* GameScene.swift */,
+				36F7D1CD1D0318AD006729BA /* GameScene.sks */,
+				36F7D1CF1D0318AD006729BA /* Assets.xcassets */,
+				36F7D1D11D0318AD006729BA /* MainMenu.xib */,
+				36F7D1D41D0318AD006729BA /* Info.plist */,
+			);
+			path = MarioWorld;
+			sourceTree = "<group>";
+		};
+		36F7D1DC1D0318AE006729BA /* MarioWorldTests */ = {
+			isa = PBXGroup;
+			children = (
+				36F7D1DD1D0318AE006729BA /* MarioWorldTests.swift */,
+				36F7D1DF1D0318AE006729BA /* Info.plist */,
+			);
+			path = MarioWorldTests;
+			sourceTree = "<group>";
+		};
+		36F7D1E71D0318AE006729BA /* MarioWorldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				36F7D1E81D0318AE006729BA /* MarioWorldUITests.swift */,
+				36F7D1EA1D0318AE006729BA /* Info.plist */,
+			);
+			path = MarioWorldUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36F7D1C51D0318AD006729BA /* MarioWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36F7D1ED1D0318AE006729BA /* Build configuration list for PBXNativeTarget "MarioWorld" */;
+			buildPhases = (
+				36F7D1C21D0318AD006729BA /* Sources */,
+				36F7D1C31D0318AD006729BA /* Frameworks */,
+				36F7D1C41D0318AD006729BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarioWorld;
+			productName = MarioWorld;
+			productReference = 36F7D1C61D0318AD006729BA /* MarioWorld.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36F7D1D81D0318AE006729BA /* MarioWorldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36F7D1F01D0318AE006729BA /* Build configuration list for PBXNativeTarget "MarioWorldTests" */;
+			buildPhases = (
+				36F7D1D51D0318AE006729BA /* Sources */,
+				36F7D1D61D0318AE006729BA /* Frameworks */,
+				36F7D1D71D0318AE006729BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36F7D1DB1D0318AE006729BA /* PBXTargetDependency */,
+			);
+			name = MarioWorldTests;
+			productName = MarioWorldTests;
+			productReference = 36F7D1D91D0318AE006729BA /* MarioWorldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		36F7D1E31D0318AE006729BA /* MarioWorldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36F7D1F31D0318AE006729BA /* Build configuration list for PBXNativeTarget "MarioWorldUITests" */;
+			buildPhases = (
+				36F7D1E01D0318AE006729BA /* Sources */,
+				36F7D1E11D0318AE006729BA /* Frameworks */,
+				36F7D1E21D0318AE006729BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36F7D1E61D0318AE006729BA /* PBXTargetDependency */,
+			);
+			name = MarioWorldUITests;
+			productName = MarioWorldUITests;
+			productReference = 36F7D1E41D0318AE006729BA /* MarioWorldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36F7D1BE1D0318AD006729BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Eric Internicola";
+				TargetAttributes = {
+					36F7D1C51D0318AD006729BA = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					36F7D1D81D0318AE006729BA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 36F7D1C51D0318AD006729BA;
+					};
+					36F7D1E31D0318AE006729BA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 36F7D1C51D0318AD006729BA;
+					};
+				};
+			};
+			buildConfigurationList = 36F7D1C11D0318AD006729BA /* Build configuration list for PBXProject "MarioWorld" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36F7D1BD1D0318AD006729BA;
+			productRefGroup = 36F7D1C71D0318AD006729BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36F7D1C51D0318AD006729BA /* MarioWorld */,
+				36F7D1D81D0318AE006729BA /* MarioWorldTests */,
+				36F7D1E31D0318AE006729BA /* MarioWorldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36F7D1C41D0318AD006729BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36F7D1D01D0318AD006729BA /* Assets.xcassets in Resources */,
+				36F7D1CE1D0318AD006729BA /* GameScene.sks in Resources */,
+				36F7D1D31D0318AD006729BA /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36F7D1D71D0318AE006729BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36F7D1E21D0318AE006729BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36F7D1C21D0318AD006729BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36F7D1CC1D0318AD006729BA /* GameScene.swift in Sources */,
+				36F7D1CA1D0318AD006729BA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36F7D1D51D0318AE006729BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36F7D1DE1D0318AE006729BA /* MarioWorldTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36F7D1E01D0318AE006729BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36F7D1E91D0318AE006729BA /* MarioWorldUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36F7D1DB1D0318AE006729BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36F7D1C51D0318AD006729BA /* MarioWorld */;
+			targetProxy = 36F7D1DA1D0318AE006729BA /* PBXContainerItemProxy */;
+		};
+		36F7D1E61D0318AE006729BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36F7D1C51D0318AD006729BA /* MarioWorld */;
+			targetProxy = 36F7D1E51D0318AE006729BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36F7D1D11D0318AD006729BA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36F7D1D21D0318AD006729BA /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36F7D1EB1D0318AE006729BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		36F7D1EC1D0318AE006729BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		36F7D1EE1D0318AE006729BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MarioWorld/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.icolasoft.MarioWorld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		36F7D1EF1D0318AE006729BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MarioWorld/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.icolasoft.MarioWorld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		36F7D1F11D0318AE006729BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = MarioWorldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.icolasoft.MarioWorldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarioWorld.app/Contents/MacOS/MarioWorld";
+			};
+			name = Debug;
+		};
+		36F7D1F21D0318AE006729BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MarioWorldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.icolasoft.MarioWorldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarioWorld.app/Contents/MacOS/MarioWorld";
+			};
+			name = Release;
+		};
+		36F7D1F41D0318AE006729BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = MarioWorldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.icolasoft.MarioWorldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MarioWorld;
+			};
+			name = Debug;
+		};
+		36F7D1F51D0318AE006729BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MarioWorldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.icolasoft.MarioWorldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MarioWorld;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36F7D1C11D0318AD006729BA /* Build configuration list for PBXProject "MarioWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36F7D1EB1D0318AE006729BA /* Debug */,
+				36F7D1EC1D0318AE006729BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36F7D1ED1D0318AE006729BA /* Build configuration list for PBXNativeTarget "MarioWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36F7D1EE1D0318AE006729BA /* Debug */,
+				36F7D1EF1D0318AE006729BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		36F7D1F01D0318AE006729BA /* Build configuration list for PBXNativeTarget "MarioWorldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36F7D1F11D0318AE006729BA /* Debug */,
+				36F7D1F21D0318AE006729BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		36F7D1F31D0318AE006729BA /* Build configuration list for PBXNativeTarget "MarioWorldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36F7D1F41D0318AE006729BA /* Debug */,
+				36F7D1F51D0318AE006729BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36F7D1BE1D0318AD006729BA /* Project object */;
+}
